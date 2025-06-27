@@ -29,18 +29,6 @@ type Platform interface {
 	SetClipboardText(text string)
 }
 
-type clipboard struct {
-	platform Platform
-}
-
-func (board clipboard) Text() (string, error) {
-	return board.platform.ClipboardText()
-}
-
-func (board clipboard) SetText(text string) {
-	board.platform.SetClipboardText(text)
-}
-
 // Renderer covers rendering imgui draw data.
 type Renderer interface {
 	// PreRender causes the display buffer to be prepared for new output.
@@ -57,7 +45,7 @@ const (
 // Run implements the main program loop of the demo. It returns when the platform signals to stop.
 // This demo application shows some basic features of ImGui, as well as exposing the standard demo window.
 func Run(p Platform, r Renderer) {
-	imgui.CurrentIO().SetClipboard(clipboard{platform: p})
+	imgui.CurrentPlatformIO().SetClipboard(p)
 
 	showDemoWindow := false
 	showGoDemoWindow := false
