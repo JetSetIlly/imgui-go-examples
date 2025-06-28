@@ -3,7 +3,7 @@ package demo
 import (
 	"fmt"
 
-	"github.com/inkyblackness/imgui-go/v4"
+	"github.com/jetsetilly/imgui-go/v5"
 )
 
 type windowFlags struct {

@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/inkyblackness/imgui-go/v4"
+	"github.com/jetsetilly/imgui-go/v5"
 
-	"github.com/inkyblackness/imgui-go-examples/internal/demo"
+	"github.com/jetsetilly/imgui-go-examples/internal/demo"
 )
 
 // Platform covers mouse/keyboard/gamepad inputs, cursor shape, timing, windowing.

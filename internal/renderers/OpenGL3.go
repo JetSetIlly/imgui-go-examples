@@ -4,8 +4,8 @@ import (
 	_ "embed" // using embed for the shader sources
 	"fmt"
 
-	"github.com/inkyblackness/imgui-go-examples/internal/renderers/gl/v3.2-core/gl"
-	"github.com/inkyblackness/imgui-go/v4"
+	"github.com/jetsetilly/imgui-go-examples/internal/renderers/gl/v3.2-core/gl"
+	"github.com/jetsetilly/imgui-go/v5"
 )
 
 //go:embed gl-shader/main.vert

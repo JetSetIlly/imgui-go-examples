@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/inkyblackness/imgui-go/v4"
+	"github.com/jetsetilly/imgui-go/v5"
 
-	"github.com/inkyblackness/imgui-go-examples/internal/example"
-	"github.com/inkyblackness/imgui-go-examples/internal/platforms"
-	"github.com/inkyblackness/imgui-go-examples/internal/renderers"
+	"github.com/jetsetilly/imgui-go-examples/internal/example"
+	"github.com/jetsetilly/imgui-go-examples/internal/platforms"
+	"github.com/jetsetilly/imgui-go-examples/internal/renderers"
 )
 
 func main() {

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"unsafe"
 
-	"github.com/inkyblackness/imgui-go-examples/internal/renderers/gl/v2.1/gl"
-	"github.com/inkyblackness/imgui-go/v4"
+	"github.com/jetsetilly/imgui-go-examples/internal/renderers/gl/v2.1/gl"
+	"github.com/jetsetilly/imgui-go/v5"
 )
 
 // OpenGL2 implements a renderer based on github.com/go-gl/gl (v2.1).
